@@ -7,7 +7,39 @@
         align-items: flex-start;
     }
 
+    .container {
+        padding: 2rem;
+    }
+
+    .recipe-origin {
+        display: inline-block;
+    }
     
+    .recipe-origin, .recipe-name {
+        font-size: 2rem;
+    }
+
+    .quick-notes>ul {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0rem 3rem;
+    }
+
+    .social-networks .fab {
+        padding: 0px 2rem;
+    }
+
+    .ads {
+        display: inline-block;
+    }
+
+    .clearfix>img {
+        display: inline-block;
+        float: left;
+        margin: 20px;
+    }
 }
+
     
 
