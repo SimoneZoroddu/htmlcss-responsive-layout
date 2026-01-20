@@ -112,3 +112,33 @@
     }
 
 }
+
+@media screen and (max-width: 576px) {
+    .ads {
+        display: inline-block;
+    }
+
+    .clearfix>img {
+        display: inline-block;
+        float: left;
+        margin: 10px;
+    }
+
+    .social-networks {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px;
+
+        .label {
+            display: inline;
+        
+        }
+
+        .fab {
+            padding: 0px 0px;
+        }
+
+        .btn { 
+            padding: 0.5rem 3rem;
+        }
+}
