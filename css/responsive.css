@@ -14,8 +14,9 @@
     .recipe-origin {
         display: inline-block;
     }
-    
-    .recipe-origin, .recipe-name {
+
+    .recipe-origin,
+    .recipe-name {
         font-size: 2rem;
     }
 
@@ -41,5 +42,73 @@
     }
 }
 
-    
+@media screen and (min-width: 993px) {
 
+    .recipe-origin,
+    .recipe-name {
+        font-size: 2.5rem;
+    }
+
+    .quick-notes>ul {
+        display: block;
+    }
+
+    .recipe-card {
+        display: flex;
+
+        .recipe-video {
+            flex-grow: 10;
+        }
+
+        .recipe-info {
+            flex-grow: 1;
+        }
+    }
+
+
+    .social-networks {
+        gap: 0px;
+
+        .label {
+            display: inline;
+        
+        }
+
+        .fab {
+            padding: 0px 0px;
+        }
+
+        .btn { 
+            padding: 0.5rem 3rem;
+        }
+        /* alternative mode */
+
+        /* display: block;
+        text-align: center;
+
+        .fab {
+            padding: 0;
+        }
+
+        .btn {
+            margin: 0px 0.25rem;
+            padding: 0.5rem 2rem;
+        }
+
+        .label {
+            display: inline-block;
+
+        } */
+         /* alternative mode */
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        
+        address {
+            text-align: left;
+        }
+    }
+
+}
