@@ -87,6 +87,8 @@
         display: flex;
 
         .recipe-video {
+            aspect-ratio: 16 / 9;
+            height: 100%;
             flex-grow: 10;
         }
 
